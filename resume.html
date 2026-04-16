@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Madhusudan Kacholiya</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand">
+        <span class="nav__name">Madhusudan Kacholiya</span>
+        <span class="nav__title">Product Designer</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html"  class="nav__link">Work</a></li>
+        <li><a href="about.html"  class="nav__link">About</a></li>
+        <li><a href="resume.html" class="nav__link active">Resume</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileNav">
+      <a href="index.html"  class="nav__link">Work</a>
+      <a href="about.html"  class="nav__link">About</a>
+      <a href="resume.html" class="nav__link active">Resume</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="resume-page">
+      <div class="container">
+        <h1 class="resume-page__heading fade-in" data-delay="1">Resume</h1>
+        <iframe
+          class="resume-page__embed fade-in"
+          data-delay="2"
+          src="resume.pdf"
+          title="Madhusudan Kacholiya Resume"
+          loading="lazy"
+        >
+          <p>Your browser does not support PDFs.
+            <a href="resume.pdf" download>Download the PDF</a>.
+          </p>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">Designed + coded with <span class="heart">♡</span> by Madhusudan</p>
+      <nav class="footer__links">
+        <a href="https://www.linkedin.com/in/madhusudankacholiya/" class="footer__link" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:madhusudankacholiya@gmail.com"             class="footer__link">Email</a>
+        <a href="https://madhusudankacholiya.com"                  class="footer__link" target="_blank" rel="noopener">Website</a>
+        <a href="resume.pdf" download                               class="footer__link">Download PDF</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
