@@ -205,8 +205,8 @@ main {
 
 .hero__inner {
 	display: grid;
-	grid-template-columns: 1fr 240px;
-	gap: 48px;
+	grid-template-columns: 1fr 1fr;
+	gap: 300px;
 	align-items: start;
 }
 
@@ -229,7 +229,7 @@ main {
 
 .timeline__item {
 	display: grid;
-	grid-template-columns: 38px 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 	padding: 10px 0;
 	/*border-top: 1px solid var(--border);*/
